@@ -12,7 +12,9 @@ Unidireccionales, no podemos obtener el codigo de entrada a partir del hash.
 
 Deterministas, el mismo input siempre genera el mismo output.
 
-Colisiones, dos entradas diferentes no pueden generar el mismo hash.
+Colisiones, dos entradas diferentes no pueden generar el mismo hash (aunque esto no puede evitarse al 100% ya que los
+algoritmos de hash tienen una cantidad finita de digitos, si se puede lograr minimizar la probabilidad de que distintas entradas
+den hash diferentes).
 
 Rapidos, deben ser rapidos de calcular.
 
