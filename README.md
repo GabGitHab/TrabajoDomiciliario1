@@ -1,5 +1,10 @@
 ALGORITMO DE HASH
 
+
+Introduccion: Este es una breve introduccion a algoritmo de Hash, pero la intencion de este texto es solo para ejercicio sobre
+funcionamiento de Git.
+
+
 Los algoritmos de hash tienen 5 caracteristicas
 Deben ser : 
 
