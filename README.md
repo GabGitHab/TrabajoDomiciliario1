@@ -18,3 +18,6 @@ Rapidos, deben ser rapidos de calcular.
 
 Debe cumplir con el efecto avalancha, el mas minimo cambio en el input debe generar un hash completamente diferente.
 
+
+
+Firma: Gabriel Larrosa
