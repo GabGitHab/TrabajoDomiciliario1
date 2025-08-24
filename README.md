@@ -5,10 +5,9 @@ Introduccion: Este es una breve introduccion a algoritmo de Hash, pero la intenc
 funcionamiento de Git.
 
 
-Los algoritmos de hash tienen 5 caracteristicas
-Deben ser : 
+Los algoritmos de hash tienen varias funciones 
 
-Unidireccionales, no podemos obtener el codigo de entrada a partir del hash.
+Mantener la integridad de los datos, al calcular un hash de un archivo y luego volver a calcularlo en otro momento, se puede verificar
 
 Deterministas, el mismo input siempre genera el mismo output.
 
@@ -16,9 +15,9 @@ Colisiones, dos entradas diferentes no pueden generar el mismo hash (aunque esto
 algoritmos de hash tienen una cantidad finita de digitos, si se puede lograr minimizar la probabilidad de que distintas entradas
 den hash diferentes).
 
-Rapidos, deben ser rapidos de calcular.
+Este tipo de Algoritmo es utilizado en Git para identificar de manera unica cada objeto almacenado en el repositorio, como commits, blobs y trees.
 
-Debe cumplir con el efecto avalancha, el mas minimo cambio en el input debe generar un hash completamente diferente.
+Tambien se utliza mucho en forences digitales, para verificar la integridad de archivos y datos.
 
 
 
